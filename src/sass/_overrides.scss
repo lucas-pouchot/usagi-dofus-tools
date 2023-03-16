@@ -1,0 +1,45 @@
+// Suggested location to add your overrides so that migration would be easy by just updating the SASS folder in the future
+
+a {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+button {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.p-radiobutton {
+  margin-right: 5px;
+}
+
+.field-radiobutton {
+  margin-top: 10px;
+}
+
+.layout-topbar .layout-topbar-logo {
+  width: unset;
+  max-width: 300px;
+}
+
+.layout-sidebar {
+  height: auto;
+}
+
+.layout-main-container {
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 991px) {
+  .layout-wrapper .layout-sidebar {
+    transform: translateX(-130%);
+    border-radius: unset !important;
+    box-shadow: 0 7px 30px rgba(0, 0, 0, 0.08), 0 22px 30px 2px rgba(0, 0, 0, 0.15), 0 8px 10px rgba(0, 0, 0, 0.15) !important;
+  }
+
+  .layout-topbar-menu {
+    border-radius: unset  !important;
+    box-shadow: 0 7px 30px rgba(0, 0, 0, 0.08), 0 22px 30px 2px rgba(0, 0, 0, 0.15), 0 8px 10px rgba(0, 0, 0, 0.15)  !important;
+  }
+}

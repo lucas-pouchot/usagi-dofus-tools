@@ -1,0 +1,125 @@
+/* -------------------- */
+/* DataTable and DataView Pagination */
+/* -------------------- */
+
+.p-datatable-header, .p-dataview-header {
+    border-top: unset !important;
+}
+
+.p-datatable .p-paginator, .p-dataview .p-paginator {
+    justify-content: center !important;
+}
+
+.p-paginator {
+    position: relative !important;
+}
+
+.p-datatable .p-paginator .p-paginator-current, .p-dataview .p-paginator .p-paginator-current {
+    margin-right: auto !important;
+}
+
+.p-datatable .p-paginator .p-paginator-rpp-options, .p-dataview .p-paginator .p-paginator-rpp-options {
+    margin-left: auto !important;
+}
+
+.p-datatable .p-paginator-bottom, .p-dataview .p-paginator-bottom {
+    border-bottom: unset !important;
+}
+
+.p-datatable .p-paginator .p-dropdown, .p-dataview .p-paginator .p-dropdown {
+    width: unset !important;
+    height: unset !important;
+}
+
+.p-paginator-current {
+    position: absolute !important;
+    left: 0 !important;
+}
+
+.p-paginator-rpp-options {
+    position: absolute !important;
+    right: 0 !important;
+}
+
+.p-datatable .p-paginator-first,
+.p-datatable .p-paginator-prev,
+.p-datatable .p-paginator-page,
+.p-datatable .p-paginator-next,
+.p-datatable .p-paginator-last,
+.p-dataview .p-paginator-next,
+.p-dataview .p-paginator-page,
+.p-dataview .p-paginator-prev,
+.p-dataview .p-paginator-first,
+.p-dataview .p-paginator-last
+{
+    min-width: 3rem !important;
+    width: 3rem !important;
+    height: 3rem !important;
+}
+
+@media screen and (max-width: 600px) {
+    .p-datatable .p-paginator-first,
+    .p-datatable .p-paginator-prev,
+    .p-datatable .p-paginator-page,
+    .p-datatable .p-paginator-next,
+    .p-datatable .p-paginator-last,
+    .p-dataview .p-paginator-next,
+    .p-dataview .p-paginator-page,
+    .p-dataview .p-paginator-prev,
+    .p-dataview .p-paginator-first,
+    .p-dataview .p-paginator-last
+    {
+        min-width: 2.5rem !important;
+        width: 2.5rem !important;
+        height: 2.5rem !important;
+    }
+
+    .p-datatable .p-paginator-bottom, .p-dataview .p-paginator-bottom {
+        display: grid;
+        padding-top: 0;
+        height: 7.6rem;
+        row-gap: 0;
+        grid-auto-columns: 1fr;
+        grid-template:
+            "first prev pages pages pages pages pages next last"
+            "current current current current no select select select select"
+    ;
+    }
+
+    .p-datatable .p-paginator-current, .p-dataview .p-paginator-current {
+        grid-area: current;
+    }
+
+    .p-datatable .p-paginator-first, .p-dataview .p-paginator-first {
+        grid-area: first;
+    }
+
+    .p-datatable .p-paginator-prev, .p-dataview .p-paginator-prev {
+        grid-area: prev;
+    }
+
+    .p-datatable .p-paginator-pages, .p-dataview .p-paginator-pages {
+        grid-area: pages;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .p-datatable .p-paginator-next, .p-dataview .p-paginator-next {
+        grid-area: next;
+    }
+
+    .p-datatable .p-paginator-last, .p-dataview .p-paginator-last {
+        grid-area: last;
+    }
+
+    .p-datatable .p-paginator-rpp-options, .p-dataview .p-paginator-rpp-options {
+        grid-area: select;
+    }
+}
+
+.p-dataview-flex-grid .p-dataview-content .p-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
