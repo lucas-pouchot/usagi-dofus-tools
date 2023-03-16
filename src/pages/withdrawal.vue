@@ -85,7 +85,7 @@ const probas = computed((): { success: number, proba: number }[] => {
             <br>
             You have <InputNumber v-model="withdrawal" :min="0" :max="1000" /> withdrawal
             <br>
-            and you want to withdraw <InputNumber v-model="toWithdraw" :min="0" :max="1000" /> MP
+            and you want to withdraw <InputNumber v-model="toWithdraw" :min="0" :max="1000" /> MP/AP
         </template>
     </Card>
 
