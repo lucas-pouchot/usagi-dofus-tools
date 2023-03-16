@@ -6,6 +6,7 @@ import generateSitemap from 'vite-ssg-sitemap';
 import Layouts from 'vite-plugin-vue-layouts';
 import Components from 'unplugin-vue-components/vite';
 import AutoImport from 'unplugin-auto-import/vite';
+import pluginRewriteAll from 'vite-plugin-rewrite-all';
 import { VitePWA } from 'vite-plugin-pwa';
 import VueI18n from '@intlify/unplugin-vue-i18n/vite';
 import Unocss from 'unocss/vite';
@@ -32,6 +33,8 @@ export default defineConfig({
         Pages({
             extensions: ['vue'],
         }),
+
+        pluginRewriteAll(),
 
         // https://github.com/JohnCampionJr/vite-plugin-vue-layouts
         Layouts(),
