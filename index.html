@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" href="/usagi-dofus-tools/pwa-192x192.png">
+  <link rel="mask-icon" href="/usagi-dofus-tools/safari-pinned-tab.svg" color="#00aba9">
+  <link id='theme-link' href='/usagi-dofus-tools/theme/dark.css' rel='stylesheet'>
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <script>
+    (function () {
+        const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const setting = localStorage.getItem('vueuse-color-scheme') || 'auto';
+        if (setting === 'dark' || (prefersDark && setting !== 'light')) { document.documentElement.classList.toggle('dark', true); }
+    })();
+  </script>
+  <script type="module" crossorigin src="/usagi-dofus-tools/assets/index-83df3afd.js"></script>
+  <link rel="stylesheet" href="/usagi-dofus-tools/assets/index-907b76ec.css">
+<link rel="manifest" href="/usagi-dofus-tools/manifest.webmanifest"></head>
+<body class='roboto font-inter text-base antialiased font-feature-default scroll-smooth'>
+  <div id="app"></div>
+  
+</body>
+</html>

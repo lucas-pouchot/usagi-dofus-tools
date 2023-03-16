@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"
+	x="0px" y="0px" width="440px" height="860px" viewBox="0 0 440 860"
+>
+<style type="text/css">
+<![CDATA[
+    .svg_logo_lucas_background {
+		fill: transparent;
+	}
+    .svg_logo_lucas_stroke_width {
+		stroke-width: 2;
+	}
+    .svg_logo_lucas_stroke_color_L {
+		stroke: black;
+	}
+    .svg_logo_lucas_fill_color_L {
+		fill: black;
+	}
+    .svg_logo_lucas_stroke_color_U {
+		stroke: #fb5607;
+	}
+    .svg_logo_lucas_fill_color_U {
+		fill: #fb5607;
+	}
+    .svg_logo_lucas_stroke_color_C {
+		stroke: black;
+	}
+    .svg_logo_lucas_fill_color_C {
+		fill: black;
+	}
+    .svg_logo_lucas_stroke_color_A {
+		stroke: #fb5607;
+	}
+    .svg_logo_lucas_fill_color_A {
+		fill: #fb5607;
+	}
+    .svg_logo_lucas_stroke_color_S {
+		stroke: black;
+	}
+    .svg_logo_lucas_fill_color_S {
+		fill: black;
+	}
+]]>
+</style>
+<g>
+	<!-- background -->
+	<rect width="100%" height="100%" class="svg_logo_lucas_background" />
+	
+	<!-- L -->
+   	<path
+		d="M20,20 v820 h400 v-20 h-380 v-800 Z"
+		class="svg_logo_lucas_stroke_width svg_logo_lucas_stroke_color_L svg_logo_lucas_fill_color_L"
+	/>
+	
+	<!-- U -->
+   	<path
+		d="M60,60 v740 h320 v-740 h-20 v720 h-280 v-720 Z"
+		class="svg_logo_lucas_stroke_width svg_logo_lucas_stroke_color_U svg_logo_lucas_fill_color_U"
+	/>
+	
+	<!-- C -->
+   	<path
+		d="M340,80 h-240 v680 h240 v-20 h-220 v-640 h220 Z"
+		class="svg_logo_lucas_stroke_width svg_logo_lucas_stroke_color_C svg_logo_lucas_fill_color_C"
+	/>
+
+	<!-- A -->
+   	<path
+		d="M140,720 v-600 h180 v600 h-20 v-380 h-140 v380 Z M160,140 v180 h140 v-180 h-140 Z"
+		class="svg_logo_lucas_stroke_width svg_logo_lucas_stroke_color_A svg_logo_lucas_fill_color_A"
+	/>
+	
+	<!-- S -->
+   	<path
+		d="M280,360 h-100 v145 l80,53 v112 h-80 v20 h100 v-145 l-80,-53 v-112 h80 Z"
+		class="svg_logo_lucas_stroke_width svg_logo_lucas_stroke_color_S svg_logo_lucas_fill_color_S"
+	/>
+	
+	<!-- GRID -->
+	<!--
+	<line  x1="0" y1="0" x2="0" y2="860" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="20" y1="0" x2="20" y2="860" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="40" y1="0" x2="40" y2="860" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="60" y1="0" x2="60" y2="860" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="80" y1="0" x2="80" y2="860" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="100" y1="0" x2="100" y2="860" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="120" y1="0" x2="120" y2="860" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="140" y1="0" x2="140" y2="860" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="160" y1="0" x2="160" y2="860" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="180" y1="0" x2="180" y2="860" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="200" y1="0" x2="200" y2="860" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="220" y1="0" x2="220" y2="860" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="240" y1="0" x2="240" y2="860" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="260" y1="0" x2="260" y2="860" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="280" y1="0" x2="280" y2="860" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="300" y1="0" x2="300" y2="860" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="320" y1="0" x2="320" y2="860" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="340" y1="0" x2="340" y2="860" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="360" y1="0" x2="360" y2="860" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="380" y1="0" x2="380" y2="860" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="400" y1="0" x2="400" y2="860" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="420" y1="0" x2="420" y2="860" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="440" y1="0" x2="440" y2="860" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	
+	<line  x1="0" y1="0" x2="440" y2="0" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="20" x2="440" y2="20" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="40" x2="440" y2="40" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="60" x2="440" y2="60" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="80" x2="440" y2="80" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="100" x2="440" y2="100" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="120" x2="440" y2="120" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="140" x2="440" y2="140" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="160" x2="440" y2="160" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="180" x2="440" y2="180" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="200" x2="440" y2="200" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="220" x2="440" y2="220" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="240" x2="440" y2="240" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="260" x2="440" y2="260" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="280" x2="440" y2="280" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="300" x2="440" y2="300" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="320" x2="440" y2="320" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="340" x2="440" y2="340" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="360" x2="440" y2="360" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="380" x2="440" y2="380" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="400" x2="440" y2="400" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="420" x2="440" y2="420" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="440" x2="440" y2="440" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="460" x2="440" y2="460" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="480" x2="440" y2="480" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="500" x2="440" y2="500" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="520" x2="440" y2="520" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="540" x2="440" y2="540" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="560" x2="440" y2="560" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="580" x2="440" y2="580" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="600" x2="440" y2="600" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="620" x2="440" y2="620" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="640" x2="440" y2="640" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="660" x2="440" y2="660" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="680" x2="440" y2="680" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="700" x2="440" y2="700" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="720" x2="440" y2="720" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="740" x2="440" y2="740" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="760" x2="440" y2="760" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="780" x2="440" y2="780" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="800" x2="440" y2="800" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="820" x2="440" y2="820" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="840" x2="440" y2="840" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	<line  x1="0" y1="860" x2="440" y2="860" style="stroke:rgb(255,0,0);stroke-width:1"/>
+	-->
+</g>
+</svg>
