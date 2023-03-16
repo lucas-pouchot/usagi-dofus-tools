@@ -16,10 +16,17 @@ const defaultState: StoreThemeInterface = {
 
 export function updateTheme(themeName: SupportedTheme) {
     toggleDark(themeName === SupportedTheme.dark);
-    const newValue = `/theme/${themeName}.css`;
+    const newValue = `${themeName}.css`;
     const relElements = Array.prototype.slice.call(document.getElementsByTagName('link'));
     relElements.forEach((element: HTMLElement) => {
-        if (element.getAttribute('href') && element.getAttribute('href')?.includes('theme/')) { element.setAttribute('href', newValue); }
+        if (element.getAttribute('href') &&
+            element.getAttribute('href')?.includes('theme/')
+        ) {
+            let href = element.getAttribute('href');
+            const hrefSplit = href!.split('/');
+            hrefSplit[hrefSplit.length-1] = newValue;
+            element.setAttribute('href', hrefSplit.join('/'));
+        }
     });
 }
 

@@ -8,7 +8,6 @@ import Components from 'unplugin-vue-components/vite';
 import AutoImport from 'unplugin-auto-import/vite';
 import { VitePWA } from 'vite-plugin-pwa';
 import VueI18n from '@intlify/unplugin-vue-i18n/vite';
-import Inspect from 'vite-plugin-inspect';
 import Unocss from 'unocss/vite';
 
 import pkg from './package.json';
@@ -102,10 +101,6 @@ export default defineConfig({
             compositionOnly: true,
             include: [path.resolve(__dirname, 'locales/**')],
         }),
-
-        // https://github.com/antfu/vite-plugin-inspect
-        // Visit http://localhost:3000/__inspect/ to see the inspector
-        Inspect(),
     ],
 
     // https://github.com/antfu/vite-ssg
