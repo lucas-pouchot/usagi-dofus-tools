@@ -1,5 +1,2 @@
-# Le Ternat WebApp
+# Usagi's Dofus Tool Webapp
 
-# Todo
-
-[ ] Ajouter un bouton `ne vient pas`
