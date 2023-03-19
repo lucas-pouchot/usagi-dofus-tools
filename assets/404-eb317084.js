@@ -1,0 +1,1 @@
+import{d as e,a as o,o as a,c as s,t as c,f as r,l as n}from"./index-54457059.js";const f=e({__name:"404",setup(l){const{t}=o();return(p,u)=>(a(),s("div",null,c(r(t)("not-found")),1))}});typeof n=="function"&&n(f);export{f as default};
