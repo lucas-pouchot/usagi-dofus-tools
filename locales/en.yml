@@ -53,6 +53,21 @@ menu:
     event: Events
 pagination:
   pageCurrentOfTotal: Page {current} on {total}
+withdraw:
+  data:
+    title: Data
+    theTargetHas: The target has
+    theTargetHasMax: The target has a maxmimum of
+    theTargetHasCurrently: The target currently has
+    mpAp: MP/AP
+    dodge: dodge
+    withdrawal: withdrawal
+    playerHave: The player have
+    wantToWithdraw: The player want to withdraw
+  result:
+    title: Results
+    numberWithdrew: Number of MP/AP withdrew
+    chanceOfEvent: Chance of event
 country:
   AF: Afghanistan
   AX: AlandIslands

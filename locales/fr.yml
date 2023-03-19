@@ -49,6 +49,21 @@ menu:
   logout: Déconnexion
 pagination:
   pageCurrentOfTotal: Page {current} sur {total}
+withdraw:
+  data:
+    title: Données
+    theTargetHas: La cible a
+    theTargetHasMax: La cible a un maximum de
+    theTargetHasCurrently: La cible a actuellement
+    mpAp: PM/PA
+    dodge: d'esquive
+    withdrawal: de retrait
+    playerHave: Le joueur a
+    wantToWithdraw: Le joueur veut retirer
+  result:
+    title: Résultats
+    numberWithdrew: Nombre de PM/PA retirés
+    chanceOfEvent: Probabilté
 country:
   AF: Afghanistan
   AX: AlandIslands
